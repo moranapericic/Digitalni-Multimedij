@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Moj HTML dokument</title>
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #ffe4f0; 
+        }
+
+        h1 {
+            justify-content: center;
+            display: flex;
+            color: #cc2e82;
+        }
+
+        h2 {
+            justify-content: center;
+            display: flex;
+            font-size: large;
+            color: #7c1f58;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #ffabe3;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #181818;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 4px;
+        }
+
+        nav a:hover {
+            background-color: #ffd6f1;
+            color: #000;
+        }
+
+        .tekst {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 700px;
+            background-color: #fff0fa;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #f8c8e8;
+        }
+
+        .liste-container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .lista {
+            background-color: #fff;
+            padding: 15px 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 8px #e4a8cb;
+        }
+
+        .lista h4 {
+            margin-bottom: 10px;
+            color: #d13a91;
+        }
+
+        ul, ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        ul li, ol li {
+            margin: 5px 0;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #7c1f58;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Morana Peričić</h1>
+    <h2>Moja web stranica</h2>
+    <nav>
+        <a href="https://www.w3schools.com/">Web stranica</a>
+        <a href="galerija/index.html">HTML dokument</a>
+        <a href="Morana_Pericic_projektni_zadatak1.pdf">PDF dokument</a>
+    </nav>
+
+    <div class="tekst">
+        <p>Zovem se <b>Morana Peričić</b>, imam 19 godina, dolazim iz Sukošana, mjesto kraj Zadra, i trenutno <i>studiram</i> na <mark>Grafičkom fakultetu</mark>.
+        Prije toga završila sam <b>Prirodoslovno - Grafičku školu</b> u Zadru, smjer Web dizajner.</p>
+    </div>
+
+    <div class="liste-container">
+        <div class="lista">
+            <h4>Hrana koju volim</h4>
+            <ul style="list-style-type:circle;">
+                <li> Piletina</li>
+                <li> Pašta</li>
+                <li> Blitva</li>
+            </ul>
+        </div>
+
+        <div class="lista">
+            <h4>Najdraži gradovi</h4>
+            <ol>
+                <li> Krakow</li>
+                <li> Zadar</li>
+                <li> Cannes</li>
+            </ol>
+        </div>
+    </div>
+
+    <footer>© 2025 Morana Peričić</footer>
+</body>
+</html>
+
